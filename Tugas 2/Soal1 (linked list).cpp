@@ -50,11 +50,6 @@ int main() {
         }
     } while (pilihan != 0);
 
-    Node* current = head;
-    while (current != nullptr) {
-        Node* temp = current;
-        current = current->next;
-        delete temp;
-    }
     return 0;
 }
+
